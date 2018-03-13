@@ -1,0 +1,6 @@
+- name: Install windows package
+  win_chocolatey:
+    name: "{{ package_name }}"
+    params: "{{ parameters }}"
+    state: present
+  when: ansible_distribution == "Microsoft Windows Server 2012 R2 Standard"
