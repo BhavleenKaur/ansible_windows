@@ -1,0 +1,4 @@
+- include : win_ad_install.yml 
+- include : win_setup_ad.yml
+- include : reboot.yml
+- include : shell_command.yml

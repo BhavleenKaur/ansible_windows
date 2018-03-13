@@ -1,0 +1,6 @@
+- name: List DCs in domain
+  win_shell: nltest /dclist:{{ ad_domain_name }}
+  register: list_domain
+
+- debug:
+  var: list_domain

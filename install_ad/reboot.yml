@@ -1,0 +1,4 @@
+- win_reboot:
+    shutdown_timeout: 3600
+    reboot_timeout: 3600
+  when: result.reboot_required

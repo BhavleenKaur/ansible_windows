@@ -1,0 +1,2 @@
+ad_domain_name: ad1.2bed.example.opentlc.com
+ad_safe_mode_password: "{{ansible_password}}"
